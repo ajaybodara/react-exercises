@@ -13,6 +13,7 @@
 1. Track the number of clicks using **[MobX](https://mobx.js.org/README.html)** .
 1. The styling of the text must match the following.
 1. Write a Snapshot test using **jest**.
+1. Write a **Unit Test** for your mobx store using **jest**.
 
 ### Clicks CSS
 
