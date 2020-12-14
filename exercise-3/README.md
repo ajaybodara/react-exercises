@@ -2,6 +2,9 @@
 
 ![Exercise 1](./screenshot.png)
 
+## Goal
+Focus on how you can isolate the side effects from React Components.
+
 ## Requirements
 
 1. Create a React App using **TYPESCRIPT**.
@@ -14,6 +17,7 @@
 1. Use (Apollo Client)[https://www.apollographql.com/docs/react/] to fetch data.
 1. (Use this API to fetch data)[https://github.com/trevorblades/countries]
 1. You must display the flag emoji (the api returns it).
+1. Write unit tests for your business logic using **jest**.
 1. Write a Snapshot test using **jest**.
 
 ## CSS
