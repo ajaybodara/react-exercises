@@ -1,11 +1,13 @@
 import * as React from "react";
+import "./app.css";
 
 const App = () => {
-  const hours =
+  let hours =
     new Date().getHours() % 12 > 10
-      ? new Date().getHours() % 12
-      : `0${new Date().getHours() % 12}` || 12;
+      ? new Date().getHours() % 12 
+      : `0${new Date().getHours() % 12}`;
 
+  hours = hours === "00" ? 12: hours
   const minute =
     new Date().getMinutes() > 10
       ? new Date().getMinutes()

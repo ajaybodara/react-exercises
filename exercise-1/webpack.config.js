@@ -3,8 +3,6 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: "./src/index.tsx",
-  target: "web",
-  mode: "development",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
@@ -24,8 +22,8 @@ module.exports = {
         loader: "source-map-loader",
       },
       {
-        test: /\.scss$/,
-        loader: "css-loader",
+        test: /\.css$/,
+        loader: "style-loader!css-loader",
       },
     ],
   },
